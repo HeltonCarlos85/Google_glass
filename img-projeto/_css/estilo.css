@@ -1,0 +1,338 @@
+@charset "utf-8";
+
+@import url ('https://fonts.googleapis.com/css?family= Italianno '); 
+
+@font-face{
+	font-family:'fontelogo';
+	src: url("../_fonts/bubblegum-sans-regular.otf");
+	
+}	
+	
+
+body{background-color:#f0fff0;
+     font-family:arial, sans-sefif;
+	 font-size:14px;
+	 
+	 
+	 
+}
+
+	p{'Open Sans', sans-serif;}
+
+
+header#cabecalho img#icone {position:relative;
+							left:705px;
+							top:-110px;
+							
+							
+}
+
+figure.foto-legenda{border: 5px solid white;
+box-shadow:1px 1px 4px black; 
+
+
+}
+
+figure.foto-legenda img{width:100%;
+                        height:100%;
+						
+}
+
+figure.foto-legenda figcaption{
+	
+position:relative;
+top:-300px;
+left:0px;
+color:red;
+background-color: rgba(0,0,0,0.4);
+width:500px;
+height: 300px;
+float:left;
+padding: 0px;
+border: 1px; 
+box-sizing:border-box; 
+opacity: 0;
+transition: opacity 1.9s;
+margin-bottom:-270px;
+
+
+
+ }
+ 
+ 
+
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+
+}
+
+/*formatação do menu*/
+
+nav#menu ul{
+list-style:none;
+text-transform:uppercase;
+position:relative;
+top:-96px;
+left:273px;
+}
+
+nav#menu li{
+	display:inline-block;
+	background-color:#dddddd;
+	padding:10px;
+	margin:2px;
+	transition:background-color:3s;
+	
+}
+
+nav#menu{display:block;
+                  
+}
+
+nav#menu h1{display:none;
+}
+
+nav#menu li:hover{
+	background-color:#606060;
+	
+}
+
+nav#menu a{
+	color:#000000;
+	text-decoration:none;
+	}
+	nav#menu a:hover{
+				color:#ffffff;
+				text-decoration:underline;
+				}
+div#interface{
+			width:900px;
+			
+			margin-left:auto;
+			margin-right:auto;
+			margin-top:10px;
+			margin-bottom:auto;
+			background-color:white;
+			box-shadow:0px 0px 10px rgba(0,0,0,1);
+			padding:10px;
+			
+			
+			}
+header#cabecalho{border-bottom:1px #606060  dotted;
+				height:150px;
+				background-image:url("../_imagens/glass-logo-peq.jpg") ;
+				background-repeat:no-repeat;
+				background-position:0px 100px;
+				
+				
+				
+				}
+header#cabecalho h1{
+	font-family:"Fontelogo", sans-sefif;
+	font-size:30px;
+	color:#606060;
+	text-shadow:1px 1px 1px rgba(0,0,0,0.6);
+	padding:0px;
+	margin-bottom:0px;
+	
+	
+}
+header#cabecalho h2{
+	Font-family:'Roboto', sans-serif;
+	color:#888888;
+	font-size:15px;
+	padding:0px;
+	margin-top:0px;
+	
+	}
+
+	/*formatação e posicionamento da pagina*/
+
+
+	
+h2#flut{clear:both; }
+
+
+section#corpo{
+	 display:block;
+	  width:580px;
+	  float:left;
+	  border-right:1px solid #606060;
+	  
+	 
+	  }
+
+aside#lateral{
+			display:block;
+			width:290px;
+			float:right;
+			background-color:#dddddd;
+			padding:10px;
+			margin-top:10px;
+			box-shadow:2px 2px 2px rgba(0,0,0,0.5);
+			
+			
+	
+}
+aside#lateral h1 {
+	font-family:'fontelogo', sans-sefif;
+	font-size:20px;
+	color:#606060;
+	margin-top:opx;
+}
+aside#lateral h2 { background-color:#606060;
+					font-size:13pt;
+					color:#ffffff;
+					padding:5px;
+					
+					
+				}
+	
+footer#rodape{clear:both;
+   border-top:1px solid #606060;
+   
+}
+
+
+footer#rodape p{text-align:center;}
+
+.redes a[ href*= "http://facebook.com/cursosemvideo" ]{
+background-image: url(face.jpg);
+}
+
+.redes a[href*= "http://twitter.com/cursosemvideo"] {
+background-image: url(twitter.jpg);
+}
+	
+.redes a{
+  height:28px;
+  width:28px;
+  display:block-inline;
+  text-indent:-9999px;
+}
+
+.redes {position:relative;
+  top:-15px;
+  left:320px;  
+}	
+
+.redes li{float:left;
+ margin-left:25px;
+ list-style:none;
+ }
+	
+table#bela { border: 1px  solid  #606060;
+			 border-spacing:0;
+			 margin-left:auto;
+			 margin-right:auto;
+}
+
+table#bela td{border: 1px solid #ffffff;
+			 padding:10px;
+			 text-align:center;
+			 vertical-align:middle;
+}
+
+table#bela td.primeira{color:#ffffff;
+	background-color:#606060;
+	vertical-align:top;
+}
+	
+table#bela td.segunda{
+	background-color:#cecece;
+	text-align:left;
+	font-weight:bold;
+}
+	
+table#bela caption{color:#888888;
+   font-size:10px;
+   font-weight:bold;
+   padding:0;
+   margin-bottom:-8px;
+
+   
+}
+
+span#tab{display:block;
+		float:right;
+		font-size:8px;
+		color:#000000;
+		margin-top:10px;
+		margin-bottom:-1px;
+		padding:0px;
+	
+		
+		
+}
+
+article#noticia h2{ font-size:11px; 
+                    color:#606060;
+					background-color:#dddddd;
+					padding:5px 0px 5px 0px;
+					margin:10px 0px 10px 0px;
+					padding-left:10px;
+					
+}
+
+header#cabecalho-artigo h1{font-family:'fontelogo',sans-sefif;
+						  font-size:20px;
+						  color:#606060;
+						  margin-bottom:0px;
+						 
+							}
+
+header#cabecalho-artigo h2{
+                          font-size:13px;
+						  color:#cecece;
+						  background-color:#ffffff;
+						  margin:0px;
+						  
+						  }
+
+
+header#cabecalho-artigo h3{font-size:12px
+                          color:#606060;
+						  margin-top:0px;
+						  
+						  
+						  
+}
+
+#ultimo {text-align:right;
+         font-size:10px;
+         margin-bottom:5px;
+		}
+		 
+a{	color:#606060;
+text-decoration:none;
+
+
+
+}
+
+a:hover	{
+text-decoration	:underline;
+
+
+}
+
+					  
+
+
+video#vdi{
+	display:block;
+	position:relative;
+	margin:auto;
+	width:260px;
+	
+	
+}
+video#vdj{
+	display:block;
+	position:relative;
+	margin:auto;
+	
+
+}
+
+	
